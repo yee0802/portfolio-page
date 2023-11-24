@@ -1,0 +1,44 @@
+#root {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+  background: linear-gradient(
+    to bottom right,
+    #fff 0%,
+    #fff 30%,
+    #6ec6e4 55%,
+    #6ec6e4 100%
+  );
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: grid;
+  place-items: center;
+  padding: 0.45rem 1rem;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  padding: 0.5rem;
+  gap: 6px;
+  background-color: #fafafa;
+  border: 2px solid rgb(194, 191, 191);
+  border-radius: 10px;
+}
+
+main > aside,
+main > section {
+  background-color: #fff;
+  border: 2px solid rgb(180, 180, 180);
+  border-radius: 8px;
+  padding: 0.75rem;
+}
