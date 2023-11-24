@@ -2,9 +2,9 @@ import "./index.css";
 
 export default function Home() {
   return (
-    <section>
+    <article>
       <h1>Hi, I'm Kye. 👋</h1>
       <p>An aspiring Full-Stack Developer. 👾</p>
-    </section>
+    </article>
   );
 }

@@ -5,8 +5,8 @@
   place-items: center;
   background: linear-gradient(
     to bottom right,
-    #fff 0%,
-    #fff 30%,
+    #faf9f6 0%,
+    #faf9f6 30%,
     #6ec6e4 55%,
     #6ec6e4 100%
   );
@@ -30,15 +30,16 @@ main {
   grid-template-columns: 30% 1fr;
   padding: 0.5rem;
   gap: 6px;
-  background-color: #fafafa;
-  border: 2px solid rgb(194, 191, 191);
+  background-color: #faf9f6;
+  border: 2px solid rgb(170, 168, 168);
   border-radius: 10px;
 }
 
 main > aside,
-main > section {
+main > article {
   background-color: #fff;
-  border: 2px solid rgb(180, 180, 180);
+  border: 2px solid rgb(167, 165, 165);
   border-radius: 8px;
   padding: 0.75rem;
+  box-shadow: 4px 2px 2px #00000030;
 }
