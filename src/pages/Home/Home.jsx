@@ -3,8 +3,12 @@ import "./index.css";
 export default function Home() {
   return (
     <article id="home">
-      <h1>Aspiring Full-Stack Developer 👾</h1>
+      <section className="profile-pic">
+        <img src="../../src/assets/profile.png" alt="" />
+      </section>
+
       <section className="info">
+        <h1>Aspiring Full-Stack Developer 👾</h1>
         <p>Hi, I'm Kye👋</p>
         <p>I am based in Bath, England📍</p>
       </section>
