@@ -4,13 +4,17 @@ export default function Home() {
   return (
     <article id="home">
       <section className="profile-pic">
-        <img src="../../src/assets/profile.png" alt="" />
+        <img src="../../src/assets/profile.png" alt="profile-picture" />
       </section>
 
       <section className="info">
         <h1>Aspiring Full-Stack Developer 👾</h1>
-        <p>Hi, I'm Kye👋</p>
-        <p>I am based in Bath, England📍</p>
+        <hr />
+        <p>
+          Hi, I'm Kye👋 A passionate and enthusiastic full-stack software
+          developer located in the Bath, England📍on the search for a Junior
+          Software Developer position 👨‍💻
+        </p>
       </section>
 
       <section className="skills">
@@ -19,14 +23,14 @@ export default function Home() {
           <li>
             <img
               src="../../src/assets/HTML5_Badge.svg"
-              alt="HTML logo"
+              alt="HTML5 logo"
               width={40}
             />
           </li>
           <li>
             <img
               src="../../src/assets/CSS3_logo.svg"
-              alt="CSS logo"
+              alt="CSS3 logo"
               width={40}
             />
           </li>
@@ -38,11 +42,14 @@ export default function Home() {
             />
           </li>
           <li>
-            <img
-              src="../../src/assets/react.svg"
-              alt="ReactJS logo"
-              width={40}
-            />
+            <a href="https://react.dev/" target="_blank">
+              <img
+                className="react-logo"
+                src="../../src/assets/react.svg"
+                alt="ReactJS logo"
+                width={40}
+              />
+            </a>
           </li>
           <li>
             <img
