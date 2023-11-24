@@ -3,13 +3,8 @@
   height: 100vh;
   width: 100vw;
   place-items: center;
-  background: linear-gradient(
-    to bottom right,
-    #faf9f6 0%,
-    #faf9f6 30%,
-    #6ec6e4 55%,
-    #6ec6e4 100%
-  );
+  background-color: #faf9f6;
+  padding: 0.5rem 0;
 }
 
 #theme-toggle {
@@ -21,18 +16,15 @@
   padding: 0.45rem 1rem;
   border: 2px solid gray;
   border-radius: 10px;
-  background-color: #fff;
   cursor: pointer;
 }
 
 main {
   display: grid;
+  height: fit-content;
   grid-template-columns: 150px 1fr;
   padding: 0.5rem;
   gap: 6px;
-  background-color: #faf9f6;
-  border: 2px solid rgb(170, 168, 168);
-  border-radius: 10px;
 }
 
 main > aside,

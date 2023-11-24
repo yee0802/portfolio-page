@@ -1,17 +1,40 @@
-article {
+#home {
   display: grid;
   text-align: center;
+  width: 500px;
 }
 
-article > section {
+#home > h1 {
+  margin-bottom: 0.7rem;
+}
+
+.github--link {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
 }
 
-article > section > a > img {
+.github--link > a > img {
   position: relative;
   top: 2px;
   cursor: pointer;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  gap: 10px;
+}
+
+.skills > span {
+  font-weight: 700;
+}
+
+.skills > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  list-style: none;
 }
