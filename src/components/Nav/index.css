@@ -7,7 +7,7 @@ nav > ul {
   list-style: none;
 }
 
-nav > ul > li {
+nav > ul li {
   font-weight: 700;
   padding: 0.65rem 0;
   cursor: pointer;
@@ -16,4 +16,20 @@ nav > ul > li {
 .link {
   text-decoration: none;
   color: rgb(43, 42, 42);
+}
+
+.home-link:hover {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgb(226, 70, 112);
+}
+
+.projects-link:hover {
+  background-color: rgb(69, 195, 245);
+}
+
+.contact-link:hover {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(240, 161, 58);
 }
