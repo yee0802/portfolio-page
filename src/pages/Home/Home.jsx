@@ -11,9 +11,8 @@ export default function Home() {
         <h1>Aspiring Full-Stack Developer 👾</h1>
         <hr />
         <p>
-          Hi, I'm Kye👋 A passionate and enthusiastic full-stack software
-          developer located in the Bath, England📍on the search for a Junior
-          Software Developer position 👨‍💻
+          Hi, I'm Kye👋 <br />
+          An aspiring Full-Stack developer located in Bath, UK📍
         </p>
       </section>
 
