@@ -7,7 +7,7 @@ export default function Home() {
         <img src="../../src/assets/profile.png" alt="profile-picture" />
       </section>
       <section className="info">
-        <h1>Aspiring Full-Stack Developer 👾</h1>
+        <h1>Full-Stack Developer 👾</h1>
         <hr />
         <p>
           Hi, I'm Kye👋 <br />
