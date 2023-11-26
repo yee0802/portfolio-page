@@ -6,7 +6,7 @@ import Projects from "./pages/Projects/Projects";
 
 function App() {
   return (
-    <>
+    <div className="container">
       <main>
         <Nav />
 
@@ -15,7 +15,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
-    </>
+    </div>
   );
 }
 
