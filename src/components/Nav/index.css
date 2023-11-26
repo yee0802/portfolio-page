@@ -1,7 +1,3 @@
-aside {
-  max-height: 150px;
-}
-
 nav > ul {
   text-align: center;
   list-style: none;
@@ -26,10 +22,6 @@ nav > ul li {
 
 .projects-link:hover {
   background-color: rgb(69, 195, 245);
-}
-
-.contact-link:hover {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  background-color: rgb(240, 161, 58);
 }

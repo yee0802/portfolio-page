@@ -6,7 +6,6 @@ export default function Home() {
       <section className="profile-pic">
         <img src="../../src/assets/profile.png" alt="profile-picture" />
       </section>
-
       <section className="info">
         <h1>Aspiring Full-Stack Developer 👾</h1>
         <hr />
@@ -59,8 +58,11 @@ export default function Home() {
           </li>
         </ul>
       </section>
-
       <section className="github--link">
+        <p>
+          <b>📫 Contact me at: </b>
+          <em>NovusAa12@proton.me</em>
+        </p>
         <a href="https://github.com/yee0802" target="_blank">
           <img src="../../src/assets/github.svg" alt="github-logo" width={23} />
         </a>

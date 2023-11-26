@@ -13,10 +13,6 @@ export default function Nav() {
           <Link to="/projects" className="link">
             <li className="projects-link">PROJECTS</li>
           </Link>
-          <hr />
-          <Link to="/contact" className="link">
-            <li className="contact-link">CONTACT</li>
-          </Link>
         </ul>
       </nav>
     </aside>
