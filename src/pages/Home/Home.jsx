@@ -1,10 +1,18 @@
+import profilePic from "../../src/assets/profile.png";
+import htmlLogo from "../../src/assets/HTML5_Badge.svg";
+import cssLogo from "../../src/assets/CSS3_logo.svg";
+import javascriptLogo from "../../src/assets/JS_logo.svg";
+import reactjsLogo from "../../src/assets/react.svg";
+import nodejsLogo from "../../src/assets/Node.js_logo.svg";
+import linkedinLogo from "../../src/assets/linkedin_icon.svg";
+import githubLogo from "../../src/assets/github.svg";
 import "./index.css";
 
 export default function Home() {
   return (
     <article id="home">
       <section className="profile-pic">
-        <img src="../../src/assets/profile.png" alt="profile-picture" />
+        <img src={profilePic} alt="profile-picture" />
       </section>
       <section className="info">
         <h1>Full-Stack Developer 👾</h1>
@@ -19,53 +27,43 @@ export default function Home() {
         <span>Technical Skills:</span>
         <ul>
           <li>
-            <img
-              src="../../src/assets/HTML5_Badge.svg"
-              alt="HTML5 logo"
-              width={40}
-            />
+            <img src={htmlLogo} alt="HTML5 logo" width={40} />
           </li>
           <li>
-            <img
-              src="../../src/assets/CSS3_logo.svg"
-              alt="CSS3 logo"
-              width={40}
-            />
+            <img src={cssLogo} alt="CSS3 logo" width={40} />
           </li>
           <li>
-            <img
-              src="../../src/assets/JS_logo.svg"
-              alt="JavaScript logo"
-              width={40}
-            />
+            <img src={javascriptLogo} alt="JavaScript logo" width={40} />
           </li>
           <li>
             <a href="https://react.dev/" target="_blank">
               <img
                 className="react-logo"
-                src="../../src/assets/react.svg"
+                src={reactjsLogo}
                 alt="ReactJS logo"
                 width={40}
               />
             </a>
           </li>
           <li>
-            <img
-              src="../../src/assets/Node.js_logo.svg"
-              alt="NodeJS logo"
-              width={60}
-            />
+            <img src={nodejsLogo} alt="NodeJS logo" width={60} />
           </li>
         </ul>
       </section>
-      <section className="github--link">
+      <section className="connect-container">
         <p>
           <b>📫 Contact me at: </b>
           <em>NovusAa12@proton.me</em>
         </p>
-        <a href="https://github.com/yee0802" target="_blank">
-          <img src="../../src/assets/github.svg" alt="github-logo" width={23} />
-        </a>
+        <section className="connect__links">
+          <a href="#" target="_blank">
+            <img src={linkedinLogo} alt="linkedin-logo" width={23} />
+          </a>
+
+          <a href="https://github.com/yee0802" target="_blank">
+            <img src={githubLogo} alt="github-logo" width={23} />
+          </a>
+        </section>
       </section>
     </article>
   );
