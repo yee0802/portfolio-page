@@ -1,11 +1,11 @@
-import profilePic from "../../src/assets/profile.png";
-import htmlLogo from "../../src/assets/HTML5_Badge.svg";
-import cssLogo from "../../src/assets/CSS3_logo.svg";
-import javascriptLogo from "../../src/assets/JS_logo.svg";
-import reactjsLogo from "../../src/assets/react.svg";
-import nodejsLogo from "../../src/assets/Node.js_logo.svg";
-import linkedinLogo from "../../src/assets/linkedin_icon.svg";
-import githubLogo from "../../src/assets/github.svg";
+import profilePic from "../../assets/profile.png";
+import htmlLogo from "../../assets/HTML5_Badge.svg";
+import cssLogo from "../../assets/CSS3_logo.svg";
+import javascriptLogo from "../../assets/JS_logo.svg";
+import reactjsLogo from "../../assets/react.svg";
+import nodejsLogo from "../../assets/Node.js_logo.svg";
+import linkedinLogo from "../../assets/linkedin_icon.svg";
+import githubLogo from "../../assets/github.svg";
 import "./index.css";
 
 export default function Home() {
