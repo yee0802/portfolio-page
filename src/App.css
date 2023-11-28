@@ -17,7 +17,7 @@ main {
   gap: 6px;
 }
 
-main > aside,
+main > header,
 main > article {
   background-color: #fff;
   border: 2px solid rgb(167, 165, 165);

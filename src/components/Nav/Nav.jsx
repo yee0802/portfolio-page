@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <aside id="nav">
+    <header id="nav">
       <nav>
         <ul>
           <Link to="/" className="link">
@@ -15,6 +15,6 @@ export default function Nav() {
           </Link>
         </ul>
       </nav>
-    </aside>
+    </header>
   );
 }
