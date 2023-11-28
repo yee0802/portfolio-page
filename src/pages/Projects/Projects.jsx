@@ -32,9 +32,9 @@ export default function Projects() {
         <h1>Cohort Dashboard</h1>
         <section className="project-info">
           <p>
-            Using React & a RESTful API, we were set out a task to replicate a
-            basic social media platform with full functionality based on a
-            design image provided
+            Using React and a RESTful API, I created a social media style post
+            feed where the user can post, comment on a post, delete a specific
+            post/comment, and view a persons profile
           </p>
           <a
             href="https://github.com/yee0802/react-cohort-dashboard-challenge"
@@ -49,9 +49,9 @@ export default function Projects() {
         <h1>Brewery Tours</h1>
         <section className="project-info">
           <p>
-            We were set a task to replicate a common scenario in eCommerce and
-            booking websites, using filters and search to modify what is
-            rendered to the user
+            With HTML, CSS and JavaScript, I replicated a common scenario in
+            eCommerce and booking websites, using filters and search to modify
+            what is rendered to the user
           </p>
           <a
             href="https://github.com/yee0802/js-dom-brewery-tours-challenge"
